@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/rova26_kinect/rova26_kinect.egg-info/PKG-INFO
+writing dependency_links to ../../build/rova26_kinect/rova26_kinect.egg-info/dependency_links.txt
+writing entry points to ../../build/rova26_kinect/rova26_kinect.egg-info/entry_points.txt
+writing requirements to ../../build/rova26_kinect/rova26_kinect.egg-info/requires.txt
+writing top-level names to ../../build/rova26_kinect/rova26_kinect.egg-info/top_level.txt
+reading manifest file '../../build/rova26_kinect/rova26_kinect.egg-info/SOURCES.txt'
+writing manifest file '../../build/rova26_kinect/rova26_kinect.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/rova26_kinect -> /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/ament_index/resource_index/packages
+running install_egg_info
+removing '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages/rova26_kinect-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rova26_kinect/rova26_kinect.egg-info to /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages/rova26_kinect-0.1.0-py3.10.egg-info
+running install_scripts
+Installing rova26_kinect_publisher script to /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/bin
+Installing rova26_map_subscriber script to /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/bin
+writing list of installed files to '/home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/install.log'

@@ -1,0 +1,23 @@
+[0.412s] Invoking command in '/home/mattthewhumble/rova26/ros2_ws/src/rova26_kinect': PYTHONPATH=/home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rova26_kinect build --build-base /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/build install --record /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/install.log --single-version-externally-managed install_data
+[0.557s] running egg_info
+[0.561s] writing ../../build/rova26_kinect/rova26_kinect.egg-info/PKG-INFO
+[0.563s] writing dependency_links to ../../build/rova26_kinect/rova26_kinect.egg-info/dependency_links.txt
+[0.563s] writing entry points to ../../build/rova26_kinect/rova26_kinect.egg-info/entry_points.txt
+[0.563s] writing requirements to ../../build/rova26_kinect/rova26_kinect.egg-info/requires.txt
+[0.564s] writing top-level names to ../../build/rova26_kinect/rova26_kinect.egg-info/top_level.txt
+[0.566s] reading manifest file '../../build/rova26_kinect/rova26_kinect.egg-info/SOURCES.txt'
+[0.566s] writing manifest file '../../build/rova26_kinect/rova26_kinect.egg-info/SOURCES.txt'
+[0.566s] running build
+[0.566s] running build_py
+[0.567s] running install
+[0.567s] running install_lib
+[0.569s] running install_data
+[0.569s] copying resource/rova26_kinect -> /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/ament_index/resource_index/packages
+[0.569s] running install_egg_info
+[0.570s] removing '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages/rova26_kinect-0.1.0-py3.10.egg-info' (and everything under it)
+[0.575s] Copying ../../build/rova26_kinect/rova26_kinect.egg-info to /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages/rova26_kinect-0.1.0-py3.10.egg-info
+[0.575s] running install_scripts
+[0.587s] Installing rova26_kinect_publisher script to /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/bin
+[0.587s] Installing rova26_map_subscriber script to /home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/bin
+[0.587s] writing list of installed files to '/home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/install.log'
+[0.609s] Invoked command in '/home/mattthewhumble/rova26/ros2_ws/src/rova26_kinect' returned '0': PYTHONPATH=/home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rova26_kinect build --build-base /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/build install --record /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/install.log --single-version-externally-managed install_data

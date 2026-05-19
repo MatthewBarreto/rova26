@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rova26</name>
+  <version>0.0.0</version>
+  <description>ROS2 mapping node</description>
+
+  <maintainer email="mattthewhumble@todo.todo">mattthewhumble</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,137 @@
+[0.300s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.302s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b25b9c54430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b25b9c23fa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b25b9c23fa0>>)
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.446s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mattthewhumble/rova26/ros2_ws'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/rova26_kinect) by extension 'ros'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rova26_kinect' with type 'ros.ament_python' and name 'rova26_kinect'
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mattthewhumble/ros2_ws/install
+[0.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 350 installed packages in /opt/ros/humble
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'cmake_target' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'cmake_clean_first' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'cmake_force_configure' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'ament_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'rova26_kinect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.550s] DEBUG:colcon.colcon_core.verb:Building package 'rova26_kinect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect', 'merge_install': False, 'path': '/home/mattthewhumble/rova26/ros2_ws/src/rova26_kinect', 'symlink_install': False, 'test_result_base': None}
+[0.550s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.554s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mattthewhumble/rova26/ros2_ws/src/rova26_kinect' with build type 'ament_python'
+[0.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('rova26_kinect', 'ament_prefix_path')
+[0.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/ament_prefix_path.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/ament_prefix_path.dsv'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/ament_prefix_path.sh'
+[0.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.784s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'rova26_kinect' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.785s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'rova26_kinect' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.786s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mattthewhumble/rova26/ros2_ws/src/rova26_kinect'
+[0.786s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.786s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mattthewhumble/rova26/ros2_ws/src/rova26_kinect': PYTHONPATH=/home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rova26_kinect build --build-base /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/build install --record /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/install.log --single-version-externally-managed
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mattthewhumble/rova26/ros2_ws/src/rova26_kinect' returned '0': PYTHONPATH=/home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rova26_kinect build --build-base /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/build install --record /home/mattthewhumble/rova26/ros2_ws/build/rova26_kinect/install.log --single-version-externally-managed
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect' for CMake module files
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect' for CMake config files
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/bin'
+[1.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('rova26_kinect', 'path')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/path.ps1'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/path.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/path.sh'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/pkgconfig/rova26_kinect.pc'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/lib/python3.10/site-packages'
+[1.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('rova26_kinect', 'pythonpath')
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/pythonpath.ps1'
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/pythonpath.dsv'
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/pythonpath.sh'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/bin'
+[1.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('rova26_kinect', 'pythonscriptspath')
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/pythonscriptspath.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/pythonscriptspath.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/hook/pythonscriptspath.sh'
+[1.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rova26_kinect)
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/package.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/package.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/package.sh'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/package.bash'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/rova26_kinect/package.zsh'
+[1.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mattthewhumble/rova26/ros2_ws/install/rova26_kinect/share/colcon-core/packages/rova26_kinect)
+[1.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.479s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.494s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.495s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.495s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.597s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mattthewhumble/rova26/ros2_ws/install/local_setup.ps1'
+[1.599s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mattthewhumble/rova26/ros2_ws/install/_local_setup_util_ps1.py'
+[1.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mattthewhumble/rova26/ros2_ws/install/setup.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mattthewhumble/rova26/ros2_ws/install/local_setup.sh'
+[1.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mattthewhumble/rova26/ros2_ws/install/_local_setup_util_sh.py'
+[1.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mattthewhumble/rova26/ros2_ws/install/setup.sh'
+[1.605s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mattthewhumble/rova26/ros2_ws/install/local_setup.bash'
+[1.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mattthewhumble/rova26/ros2_ws/install/setup.bash'
+[1.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mattthewhumble/rova26/ros2_ws/install/local_setup.zsh'
+[1.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mattthewhumble/rova26/ros2_ws/install/setup.zsh'

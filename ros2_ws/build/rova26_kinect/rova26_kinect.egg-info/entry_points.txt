@@ -1,0 +1,4 @@
+[console_scripts]
+rova26_kinect_publisher = rova26_kinect.rova26_kinect_publisher:main
+rova26_map_subscriber = rova26_kinect.rova26_map_subscriber:main
+

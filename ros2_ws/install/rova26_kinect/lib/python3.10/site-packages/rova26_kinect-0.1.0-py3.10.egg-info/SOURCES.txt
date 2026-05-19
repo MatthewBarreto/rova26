@@ -1,0 +1,13 @@
+package.xml
+setup.py
+../../build/rova26_kinect/rova26_kinect.egg-info/PKG-INFO
+../../build/rova26_kinect/rova26_kinect.egg-info/SOURCES.txt
+../../build/rova26_kinect/rova26_kinect.egg-info/dependency_links.txt
+../../build/rova26_kinect/rova26_kinect.egg-info/entry_points.txt
+../../build/rova26_kinect/rova26_kinect.egg-info/requires.txt
+../../build/rova26_kinect/rova26_kinect.egg-info/top_level.txt
+../../build/rova26_kinect/rova26_kinect.egg-info/zip-safe
+resource/rova26_kinect
+rova26_kinect/__init__.py
+rova26_kinect/rova26_kinect_publisher.py
+rova26_kinect/rova26_map_subscriber.py

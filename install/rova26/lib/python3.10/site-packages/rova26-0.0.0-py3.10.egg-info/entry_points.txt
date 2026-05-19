@@ -1,0 +1,3 @@
+[console_scripts]
+map_received_node = rova26.map_received_node:main
+
